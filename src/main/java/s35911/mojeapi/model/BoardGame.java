@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import java.time.LocalDate;
 
 @Entity
 @Data
@@ -22,4 +23,5 @@ public class BoardGame {
     private String publisher;
     private Integer releaseYear;
     private Integer maxPlayers;
+    private LocalDate releaseDate;
 }

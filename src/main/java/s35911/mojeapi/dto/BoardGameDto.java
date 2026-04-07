@@ -3,6 +3,7 @@ package s35911.mojeapi.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
@@ -13,4 +14,5 @@ public class BoardGameDto {
     private String publisher;
     private Integer releaseYear;
     private Integer maxPlayers;
+    private LocalDate releaseDate;
 }
